@@ -17,6 +17,17 @@
     max-width: 852px;
     margin-bottom: 32px;
     font-weight: 400;
+    text-align: center;
+}
+
+.section-title{
+    color: rgb(13, 19, 33);
+    font-size: 32px;
+    font-weight: 800;
+    line-height: 37px;
+    letter-spacing: 0%;
+    text-align: center;
+
 }
 /* header style */
 
@@ -118,4 +129,19 @@
     letter-spacing: 0%;
     text-align: left;
 
+}
+
+/* inspiration section */
+
+.inspiration{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    max-width: 1140px;
+    margin: 0 150px 150px 150px;
+}
+
+.inspiration iframe{
+    padding: 32px;
 }
